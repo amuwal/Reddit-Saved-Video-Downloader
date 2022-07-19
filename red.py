@@ -56,7 +56,7 @@ def go_download(post, foldername):
     try:
         video_url = data["data"]["children"][0]["data"]["secure_media"]["reddit_video"]["fallback_url"]
         audio_url = "https://v.redd.it/"+video_url.split("/")[3]+"/DASH_audio.mp4"
-    except exception as e:
+    except:
         print("A shared post was detected. Ignoring and and moving forward")
         return
 
