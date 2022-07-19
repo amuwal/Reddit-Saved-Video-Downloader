@@ -18,6 +18,7 @@ Project is created with:
 
 2. To run this project you first need to register yourself on reddit api(very-easy)
 [Reddit-Api](https://www.reddit.com/prefs/apps)
+
 Guide to register on Reddit Api: [Blog](https://www.geeksforgeeks.org/how-to-get-client_id-and-client_secret-for-python-reddit-api-registration/)
 
 3. Fill out your credentials in credentials.py
@@ -28,6 +29,8 @@ user_agent= "Agent_L" #You can leave this be
 username= "YOUR REDDIT USER NAME HERE"
 password= "YOUR REDDIT PASSWORD HERE"
 ```
+
+4. Now just run the python file 
 
 ##### **Note that the post gets unsaved after it's downloaded(You can change it though)**
 
